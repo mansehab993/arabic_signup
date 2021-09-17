@@ -66,6 +66,7 @@ html {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-around;
+  transition-duration: .3s;
 
 }
 .header .container h2 {
@@ -230,6 +231,9 @@ html {
   background-color: var(--main-color);
 }
 @media (max-width:768px) {
+  .sign-up .container {
+    height: calc(100vh - 30px);
+  }
   .sign-up .container .square .col-1{
     display: none;
   }
